@@ -7,7 +7,8 @@
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/2.jpg");
     background-position: center;
     background-size: cover;
-    position: absolute;
+    position: relative;
+    padding-bottom: 50px;
 }
 nav{
     display: flex;
@@ -52,7 +53,7 @@ nav img{
 .text-box{
     width: 90%;
     color: white;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -84,7 +85,7 @@ nav img{
 .course{
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 h1{
     font-weight: 600;
@@ -169,7 +170,7 @@ h3{
 .facilities{
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 .facilities-col{
     flex-basis: 31%;
@@ -194,7 +195,7 @@ h3{
     width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .testimonial-col{
     flex-basis: 44%;
